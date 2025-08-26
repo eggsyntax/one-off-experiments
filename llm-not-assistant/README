@@ -1,0 +1,3 @@
+Looking at what happens when the 'assistant' part of the prompt template is suppressed -- the model, unsurprisingly, will then strongly predict the assistant token. But if we suppress that, the model then proceeds to give the same sorts of answers it does in the control case. I found that surprising! I expected it to push the model somewhat off-distribution, with unpredictable effects -- or, just possibly, to create output that wasn't based on the assistant persona. That last would have been the most interesting result from my point of view (see https://tinyurl.com/egg-functional-self-diary, 26 Aug 2025 entry), but nope!
+
+
